@@ -1,0 +1,26 @@
+export const PLAYER_ADD = 'PLAYER_ADD';
+export const PLAYER_DELETE = 'PLAYER_DELETE';
+export const PLAYER_SET_NAME = 'PLAYER_SET_NAME';
+export const PLAYER_SET_ROLE = 'PLAYER_SET_ROLE';
+export const PLAYER_SET_STATUS = 'PLAYER_SET_STATUS';
+export const PLAYER_GENERATE = 'PLAYER_GENERATE';
+
+
+export const PLAYER_KILL = 'PLAYER_KILL';
+export const PLAYER_HEAL = 'PLAYER_HEAL';
+export const PLAYER_MUTE = 'PLAYER_MUTE';
+export const PLAYER_UNMUTE = 'PLAYER_UNMUTE';
+export const PLAYER_SET_MUTE = 'PLAYER_SET_MUTE';
+export const PLAYER_CHECK = 'PLAYER_CHECK';
+export const PLAYER_ROLE_ACTION = 'PLAYER_ROLE_ACTION';
+
+export const GAME_CLEAR = 'GAME_CLEAR';
+export const GAME_ADD_HISTORY = 'GAME_ADD_HISTORY';
+export const GAME_SET_CYCLE = 'GAME_SET_CYCLE';
+export const GAME_SET_TURN = 'GAME_SET_TURN';
+export const GAME_NEXT_TURN = 'GAME_NEXT_TURN';
+export const GAME_RESTART = 'GAME_RESTART';
+
+
+export const OVERLAY_OPEN = 'OVERLAY_OPEN';
+export const OVERLAY_CLOSE = 'OVERLAY_CLOSE';

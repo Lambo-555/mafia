@@ -1,0 +1,29 @@
+.Game {
+  height: 100%;
+  width: 100%;
+}
+.Status_bar {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid yellow;
+  margin-top: -1px;
+}
+.Status_bar__item {
+  height: 100%;
+  border-left: 1px solid yellow;
+  margin-left: -1px;
+  font-size: 1rem;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  align-self: stretch;
+}
+
+.Line {
+  height: 25px;
+  background: black;
+  width: 100%;
+}

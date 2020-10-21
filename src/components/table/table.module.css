@@ -1,0 +1,39 @@
+table {
+  border-top: 1px solid yellow;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+  empty-cells: hide;
+}
+td {
+  text-align: center;
+  padding: 7px;
+}
+th {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+tr {
+  border-bottom: 2px solid black;
+}
+.sleep {
+  background: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,0.8);
+}
+.action {
+  font-weight: bold;
+}
+.dead {
+  background: rgba(0,0,0,1);
+  color: rgba(255,100,100,0.55);
+}
+
+table small {
+  font-size: 0.75rem;
+  color: darkgray;
+  background: black;
+  border-radius: 25%;
+  padding: 3px;
+}

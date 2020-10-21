@@ -1,0 +1,58 @@
+.Overlay {
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Overlay_box {
+  position: fixed;
+  z-index: 100;
+  color: white;
+  left: 0;
+  right: 20vw;
+  top: 0;
+  bottom: 0;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid yellow;
+}
+
+.Overlay_menu {
+  background: black;
+  border: 1px solid yellow;
+  margin-top: -1px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Overlay_h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.Overlay_select {
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 0 15px 5px;
+  font-size: 1.2rem;
+  background: black;
+  max-width: 25vw;
+  flex: 1;
+  color: yellow;
+  border: 1px solid yellow;
+  text-align: center;
+}
+
+.Overlay_h3>small {
+  color: gray;
+  font-weight: normal;
+}
